@@ -20,6 +20,7 @@ const match_bet_Schema = new Schema({
     competitor: {
         type: Schema.Types.ObjectId,
         ref: 'Competitor',
+        required: true
     }
 });
 
